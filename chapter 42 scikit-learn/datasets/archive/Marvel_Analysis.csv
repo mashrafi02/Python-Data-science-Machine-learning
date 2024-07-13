@@ -1,0 +1,45 @@
+﻿MCU_Phase,Film_Title,US_Release_Date,Director_Names,Screenwriter_Names,Producer_Names,Budget_Million_Dollars,Opening_Weekend_WW_Million_Dollars,Box_Office_US_CAN_Million_Dollars,Box_Office_Other_Territories_Million_Dollars,Box_Office_WW_Million_Dollars,IMDb_Rating,Metacritic_Score,Tomatometer_Score,Audience_Score,Average_Score
+Phase I,Iron Man,"May 2, 2008",Jon Favreau,Mark Fergus & Hawk Ostby and Art Marcum & Matt Holloway,Avi Arad and Kevin Feige,140,99,319,267,586,7.9,79,94,91,8.6
+Phase I,The Incredible Hulk,"Jun 13, 2008",Louis Leterrier,Zak Penn,"Avi Arad, Gale Anne Hurd, and Kevin Feige",150,55,135,130,265,6.6,61,67,69,6.6
+Phase I,Iron Man 2,"May 7, 2010",Jon Favreau,Justin Theroux,Kevin Feige,200,128,312,312,624,6.9,57,72,71,6.7
+Phase I,Thor,"May 6, 2011",Kenneth Branagh,Ashley Edward Miller & Zack Stentz and Don Payne,Kevin Feige,150,66,181,269,449,7,57,77,76,7
+Phase I,Captain America: The First Avenger,"Jul 22, 2011",Joe Johnston,Christopher Markus & Stephen McFeely,Kevin Feige,140,65,177,194,371,6.9,66,80,75,7.3
+Phase I,The Avengers,"May 4, 2012",Joss Whedon,Joss Whedon,Kevin Feige,220,207,623,897,1521,8,69,91,91,8.3
+Phase II,Iron Man 3,"May 03, 2013",Shane Black,Drew Pearce and Shane Black,Kevin Feige,200,373,409,807,1216,7.1,62,79,78,7.3
+Phase II,Thor: The Dark World,"Nov 08, 2013",Alan Taylor,Christopher L. Yost and Christopher Markus & Stephen McFeely,Kevin Feige,170,109,206,438,645,6.8,54,67,75,6.6
+Phase II,Captain America: The Winter Soldier,"Apr 04, 2014",Anthony and Joe Russo,Christopher Markus & Stephen McFeely,Kevin Feige,177,75,260,455,714,7.7,70,90,92,8.2
+Phase II,Guardians of the Galaxy,"Aug 01, 2014",James Gunn,James Gunn and Nicole Perlman,Kevin Feige,170,161,334,440,773,8,76,92,92,8.5
+Phase II,Avengers: Age of Ultron,"May 01, 2015",Joss Whedon,Joss Whedon,Kevin Feige,444,392,459,946,1405,7.3,66,76,82,7.4
+Phase II,Ant-Man,"Jul 17, 2015",Peyton Reed,Edgar Wright & Joe Cornish and Adam McKay & Paul Rudd,Kevin Feige,130,57,180,339,519,7.2,64,83,85,7.6
+Phase III,Captain America: Civil War,"May 6, 2016",Anthony and Joe Russo,Christopher Markus & Stephen McFeely,Kevin Feige,250,379,408,747,1155,7.8,75,90,89,8.3
+Phase III,Doctor Strange,"Nov 4, 2016",Scott Derrickson,Jon Spaihts and Scott Derrickson & C. Robert Cargill,Kevin Feige,165,75,233,445,678,7.5,72,89,86,8.1
+Phase III,Guardians of the Galaxy Vol. 2,"May 5, 2017",James Gunn,James Gunn,Kevin Feige,200,150,340,474,864,8,76,92,92,8.5
+Phase III,Spider-Man: Homecoming,"Jul 7, 2017",Jon Watts,"Jonathan Goldstein & John Francis Daley and Jon Watts &
+Christopher Ford and Chris McKenna & Erik Sommers",Kevin Feige and Amy Pascal,175,117,334,546,880,7.4,73,92,87,8.2
+Phase III,Thor: Ragnarok,"Nov 3, 2017",Taika Waititi,Eric Pearson and Craig Kyle & Christopher L. Yost,Kevin Feige,180,122,315,540,855,7.9,74,93,87,8.3
+Phase III,Black Panther,"Feb 16, 2018",Ryan Coogler,Ryan Coogler & Joe Robert Cole,Kevin Feige,200,371,700,650,1350,7.3,88,96,79,8.4
+Phase III,Avengers: Infinity War,"Apr 27, 2018",Anthony and Joe Russo,Christopher Markus & Stephen McFeely,Kevin Feige,400,641,679,1374,2052,8.4,68,85,92,8.2
+Phase III,Ant-Man and the Wasp,"Jul 6, 2018",Peyton Reed,"Chris McKenna & Erik Sommers and Paul Rudd & 
+Andrew Barrer & Gabriel Ferrari",Kevin Feige and Stephen Broussard,162,76,217,406,623,7,70,87,79,7.7
+Phase III,Captain Marvel,"Mar 8, 2019",Anna Boden & Ryan Fleck,Anna Boden & Ryan Fleck & Geneva Robertson-Dworet,Kevin Feige,175,457,427,705,1131,6.8,64,79,45,6.4
+Phase III,Avengers: Endgame,"Apr 26, 2019",Anthony and Joe Russo,Christopher Markus & Stephen McFeely,Kevin Feige,400,1224,858,1941,2799,8.4,78,94,90,8.7
+Phase III,Spider-Man: Far From Home,"Jul 2, 2019",Jon Watts,Chris McKenna & Erik Sommers,Kevin Feige and Amy Pascal,160,296,391,741,1132,7.4,69,91,95,8.2
+Phase IV,Black Widow,"Jul 9, 2021",Cate Shortland,Eric Pearson,Kevin Feige,200,226,184,196,380,6.7,68,79,91,7.6
+Phase IV,Shang-Chi and the Legend of the Ten Rings,"Sep 3, 2021",Destin Daniel Cretton,Dave Callaham & Destin Daniel Cretton & Andrew Lanham,Kevin Feige and Jonathan Schwartz,200,76,225,208,432,7.4,71,91,98,8.4
+Phase IV,Eternals,"Nov 5, 2021",Chloé Zhao,Chloé Zhao and Chloé Zhao & Patrick Burleigh and Ryan Firpo & Kaz Firpo,Kevin Feige and Nate Moore,236,162,165,237,402,6.3,52,47,77,6
+Phase IV,Spider-Man: No Way Home,"Dec 17, 2021",Jon Watts,Chris McKenna & Erik Sommers,Kevin Feige and Amy Pascal,200,601,814,1108,1922,8.2,71,93,98,8.6
+Phase IV,Doctor Strange in the Multiverse of Madness,"May 6, 2022",Sam Raimi,Michael Waldron,Kevin Feige,200,452,411,544,956,6.9,60,74,85,7.2
+Phase IV,Thor: Love and Thunder,"Jul 8, 2022",Taika Waititi,Taika Waititi & Jennifer Kaytin Robinson,Kevin Feige and Brad Winderbaum,250,303,343,418,761,6.2,57,63,76,6.5
+Phase IV,Black Panther: Wakanda Forever,"Nov 11, 2022",Ryan Coogler,Ryan Coogler & Joe Robert Cole,Kevin Feige and Nate Moore,250,332,453,405,859,6.7,67,83,94,7.8
+Phase V,Ant-Man and the Wasp: Quantumania,"Feb 17, 2023",Peyton Reed,Jeff Loveness,Kevin Feige and Stephen Broussard,327,225,214,262,476,6.1,48,46,82,5.9
+Phase V,Guardians of the Galaxy Vol. 3,"May 5, 2023",James Gunn,James Gunn,Kevin Feige,250,280,359,487,846,7.9,64,82,94,8
+Phase V,The Marvels,"Nov 10, 2023",Nia DaCosta,Nia DaCosta and Megan McDonnell and Elissa Karasik,Kevin Feige,275,46,84,122,206,5.5,50,62,82,6.2
+Phase V,Deadpool & Wolverine,"Jul 26, 2024",Shawn Levy,"Ryan Reynolds & Rhett Reese & Paul Wernick &
+Zeb Wells & Shawn Levy","Kevin Feige, Ryan Reynolds, Shawn Levy, 
+and Lauren Shuler Donner",,,,,,,,,,
+Phase V,Captain America: Brave New World,"Feb 14, 2025",Julius Onah,Malcolm Spellman & Dalan Musson and Matthew Orton,"Kevin Feige, Nate Moore, and Malcolm Spellman",,,,,,,,,,
+Phase V,Thunderbolts*,"May 5, 2025",Jake Schreier,Eric Pearson and Lee Sung Jin and Joanna Calo,Kevin Feige,,,,,,,,,,
+Phase VI,The Fantastic Four,"Jul 25, 2025",Matt Shakman,Jeff Kaplan & Ian Springer and Josh Friedman and Cameron Squires and Eric Pearson and Peter Cameron,Kevin Feige,,,,,,,,,,
+Phase VI,Blade,"Nov 7, 2025",TBA,Michael Starrbury and Nic Pizzolatto and Michael Green and Eric Pearson,,,,,,,,,,,
+Phase VI,Avengers 5,"May 1, 2026",TBA,Michael Waldron,,,,,,,,,,,
+Phase VI,Avengers: Secret Wars,"May 7, 2027",TBA,,,,,,,,,,,,

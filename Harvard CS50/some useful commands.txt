@@ -1,0 +1,28 @@
+1.use main() function to write your codes. this way you can define your other functions
+anywhere outside the main func. other wise you will always have to define your other funtions at 
+the top.
+
+2. use {x:,} in f string to print digits with comma
+
+3. use {x: 2f} or {x: .2f} in f string to round your floating numbers within 2 digits after point
+
+4. in python you can write this code      if x >= 70 and x < 80 
+                             like this    if 70 <= x < 80
+
+5. use ceil of math module to round up decimal numbers
+
+6. def func(arg:type) -> output type:
+	pass
+
+7. use window_handles with selenium . it will return a list of windows opened in your browser with base window at 0 position and goes on and on
+
+8. use switch to switch between windows after 7 no. code
+
+9. scroll methods-- with selenium
+   i. driver.execute_script("window.scrollBy(0,1000)","")
+   ii. find an x_path let's say abc
+      driver.execute_script("arguments[0].scrollIntoView();", abc)
+   iii. driver.execute_script("window.scrollBy(0,document.body.scrollHeight)")
+
+10. for generating secret keys use--->
+	os.urandom(n).hex()

@@ -1,0 +1,23 @@
+There are basically 3 steps to hadle missing or null values -->
+
+1. Simply delete the record which has missing value
+	When you have a huge dataset consists of milllions of data and some of the rows have many null values in 
+	manuu columns , then you can consider this method.
+
+2. Create a seperate model to handle the missing or null values --> very complex method
+	whenever you have a smaller dataset, you can consider applying this method. Here you can make a seperate dataset which 
+	will have the missing value column as a target feature and others along with the target feature of the original dataset as 
+	feature data. Then you will create your model based on this new dataset and predict the missing value and fill it in the original dataset.
+	You may create more than one new seperate dataset based on your missing values quantity in each column of your original dataset and predict 
+	missing values for each seperate dataset. From the above info  you can see that process is more time consumable and computational effort is also 
+	very high. So, consider this method only when you have a smaller and simple dataset. Other wise avoid it.
+
+3. Using stastical methods like mean, median or mode --> The best method
+	Here you will use some statastical methods like -->>>
+	Average (mean) -- fill the missing values with the average of that column
+	Median  -- fill the missing values with the center value of that column after sorting the column's value in ascending format
+	Mode --  fill the missing values with the most appering value of that column means the value with the most frequency
+
+
+
+

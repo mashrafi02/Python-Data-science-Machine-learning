@@ -1,0 +1,13 @@
+There are 2 methods of identifyi ng outliers -->
+
+1. Z-score ((Observation(X) - mean(mew)) / STD) 
+	-->> if the z-score is falling under 3 or 3rd STD then it won't be a outlier
+
+2. IQR (Inter Quantile Range(75% percentile number - 25% percentile number))
+	-->> lower bound value(lbv) = 25% percentile - IQR*1.5
+	     upper bound value (ubv)= 75% percentile + IQR*1.5
+
+	     anything lesser than lbv or greater than ubv will be called an outlier
+
+3. Scatter plot
+4. Box plot

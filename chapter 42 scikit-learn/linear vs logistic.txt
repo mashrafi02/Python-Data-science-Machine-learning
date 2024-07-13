@@ -1,0 +1,79 @@
+### Linear Regression
+
+**Linear regression** is a supervised learning algorithm used for predicting a continuous target variable based on one or more input features. The relationship between the target variable and the input features is assumed to be linear.
+
+#### Key Concepts
+
+- **Model Equation**: The equation for a linear regression model with one input feature is:
+
+  \[ y = \beta_0 + \beta_1 x + \epsilon \]
+
+  where:
+  - \( y \) is the target variable.
+  - \( x \) is the input feature.
+  - \( \beta_0 \) is the intercept.
+  - \( \beta_1 \) is the coefficient (slope).
+  - \( \epsilon \) is the error term.
+
+  For multiple input features, the equation generalizes to:
+
+  \[ y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \ldots + \beta_n x_n + \epsilon \]
+
+- **Objective**: The goal is to find the best-fitting line (or hyperplane in higher dimensions) that minimizes the sum of the squared differences between the actual and predicted values.
+
+- **Evaluation Metrics**:
+  - **Mean Squared Error (MSE)**: Measures the average squared difference between the actual and predicted values.
+  - **R-squared (R²)**: Indicates the proportion of the variance in the dependent variable that is predictable from the independent variables.
+
+### Logistic Regression
+
+**Logistic regression** is a supervised learning algorithm used for binary classification tasks, where the target variable has two classes. It predicts the probability that a given input point belongs to a particular class.
+
+#### Key Concepts
+
+- **Model Equation**: Logistic regression uses the logistic function (sigmoid function) to model the probability of the target variable belonging to a particular class. The equation is:
+
+  \[ p = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + \beta_2 x_2 + \ldots + \beta_n x_n)}} \]
+
+  where:
+  - \( p \) is the probability that the target variable is 1.
+  - \( x_i \) are the input features.
+  - \( \beta_i \) are the coefficients.
+
+- **Objective**: The goal is to find the coefficients (\( \beta_i \)) that maximize the likelihood of the observed data.
+
+- **Decision Boundary**: Logistic regression outputs probabilities, which can be thresholded (typically at 0.5) to make binary predictions.
+
+- **Evaluation Metrics**:
+  - **Accuracy**: The proportion of correct predictions.
+  - **Precision, Recall, F1-score**: Metrics to evaluate the performance of the model, especially useful for imbalanced datasets.
+
+### Comparison
+
+- **Purpose**:
+  - Linear Regression: Predicts a continuous target variable.
+  - Logistic Regression: Predicts a binary categorical target variable.
+
+- **Output**:
+  - Linear Regression: Produces continuous values.
+  - Logistic Regression: Produces probabilities (between 0 and 1), which can be converted to binary predictions.
+
+- **Function**:
+  - Linear Regression: Uses a linear function to model the relationship.
+  - Logistic Regression: Uses a logistic function (sigmoid) to model the probability.
+
+- **Model Type**:
+  - Linear Regression: Suitable for regression tasks.
+  - Logistic Regression: Suitable for classification tasks.
+
+### Example Applications
+
+- **Linear Regression**:
+  - Predicting house prices based on features like size, number of rooms, location, etc.
+  - Forecasting sales based on advertising spend.
+
+- **Logistic Regression**:
+  - Predicting whether an email is spam or not.
+  - Determining if a customer will churn based on their usage data.
+
+Understanding the differences and applications of linear and logistic regression helps in choosing the appropriate model for a given problem. Both are foundational techniques in machine learning with widespread use in various domains.
