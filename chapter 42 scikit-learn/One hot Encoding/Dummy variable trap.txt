@@ -1,0 +1,36 @@
+In data science, the dummy variable trap is a scenario where dummy variables (or one-hot encoded variables) are highly correlated, leading to multicollinearity. This typically occurs when you include all categories of a categorical variable as separate binary variables (dummies) in your model.
+
+For example, if you have a categorical variable with three categories: Red, Green, and Blue, you might create three dummy variables:
+
+Red (1 if Red, 0 otherwise)
+Green (1 if Green, 0 otherwise)
+Blue (1 if Blue, 0 otherwise)
+Including all three in your regression model causes multicollinearity because knowing any two variables automatically determines the third one. This makes the matrix of predictors non-invertible, causing issues with the regression calculations.
+
+To avoid the dummy variable trap, you can drop one dummy variable. This way, you can infer the dropped category when the others are all 0. For example, if you drop the "Blue" variable:
+
+Red (1 if Red, 0 otherwise)
+Green (1 if Green, 0 otherwise)
+If both Red and Green are 0, then the observation must be Blue.
+
+
+Multicollinearity occurs in a regression model when two or more predictor variables are highly correlated. This means that one predictor can be linearly predicted from the others with a substantial degree of accuracy. Multicollinearity can cause issues because it makes it difficult to determine the individual effect of each predictor variable on the dependent variable. It also inflates the variances of the parameter estimates, which can make the model coefficients unstable and difficult to interpret.
+
+Simple Example
+Imagine you are trying to predict the price of a house using two predictor variables:
+
+The size of the house in square feet.
+The number of bedrooms.
+In many cases, these two variables are highly correlated because larger houses tend to have more bedrooms. If you include both of these variables in your regression model, you may face multicollinearity.
+
+Here's how multicollinearity can manifest:
+
+If you try to isolate the effect of the number of bedrooms on the house price while keeping the size constant, it becomes difficult because size and number of bedrooms are not independent.
+The model may give you unreliable and fluctuating coefficients for the predictors because of their high correlation.
+Another Example
+Consider a dataset with three variables:
+
+Age
+Years of work experience
+Salary
+Typically, age and years of work experience are correlated because older individuals generally have more years of work experience. Including both age and years of work experience in a regression model to predict salary could lead to multicollinearity.

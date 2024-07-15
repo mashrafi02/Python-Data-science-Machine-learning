@@ -1,0 +1,6 @@
+There are tow types of categorical data.
+1. Nominal:
+            These type of categorical datas cannot be seperated in basis of any numerical factor. like -- male, female, name of places, red, green , blue etc.
+
+2. Ordinal:
+            These types of categorical data can be seperated in basis of numerical factor like -- High, medium, low, satisfied, nutral, dissatisfied, honours, masters, phd, etc.
