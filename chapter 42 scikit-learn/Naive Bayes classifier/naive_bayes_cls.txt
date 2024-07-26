@@ -1,0 +1,3 @@
+It is used in spam email detection, hand written digit detection, face detection, news article classification
+
+
